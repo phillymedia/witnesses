@@ -10,11 +10,31 @@
 }
 }
 
-.sharestorytext {
-    color: #333333;
-    text-decoration: none;
-    a {
-      color: #333333;
-      text-decoration: none;
-  }
-}
+.emailSubscribeBox {
+float: right;
+max-width: 250px;
+margin-left: 30px;
+margin-bottom: 20px;
+background: #eee;
+padding: 15px; }
+@media only screen and (max-width: 480px) {
+  .emailSubscribeBox {
+    float: none;
+    max-width: 100%;
+    margin-left: 0; } }
+.emailSubscribeBox p.subscribeText {
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Gotham Narrow", "Arial", sans-serif;
+  line-height: 1.4em;
+  font-size: 1em;
+  margin-bottom: 10px; }
+  .emailSubscribeBox p.subscribeText strong {
+    font-size: 1.1em;
+    font-weight: 900;
+    display: block;
+    margin-bottom: 10px; }
+.emailSubscribeBox button {
+  color: white;
+  font-size: 15px;
+  background: #c00;
+  font-weight: 700;
+  border-radius: 5px; }
