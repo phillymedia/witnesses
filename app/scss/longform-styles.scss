@@ -33,8 +33,13 @@
     background-attachment: fixed;
     background-size: cover;
     background-color: #000;
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      background-size: contain;
+  /* For landscape layouts only */
+}
     @include tablet {
         min-height: 500px;
+        height: auto;
         min-height: 100%;
         height: auto;
         padding-bottom: percentage(800/1200)-5;
