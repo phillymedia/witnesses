@@ -19,7 +19,9 @@
     background-image: url("http://media.philly.com/images/jehovah_tour_people_1200.jpg");
     background-position: center;
     @include tablet {
-        background-size: cover;
+background-attachment: scroll !important;
+        background-size: contain;
+
     }
 }
 
@@ -34,15 +36,17 @@
     background-size: cover;
     background-color: #000;
     @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-      background-size: contain;
+      background-size: contain !important;
+      background-attachment: scroll !important;
   /* For landscape layouts only */
 }
     @include tablet {
         min-height: 500px;
         height: auto;
         min-height: 100%;
-        height: auto;
+        height: auto !important;
         padding-bottom: percentage(800/1200)-5;
+                background-size: contain !important;
     }
 }
 
