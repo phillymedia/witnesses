@@ -1,14 +1,9 @@
 @import 'longform-styles';
 @import 'philly-styles/values';
 
-.sharestory {
-  background-color: hsla(0,0%,84%,.3);
-  padding: 15px 30px 20px;
-  a {
-    color: #333333;
-    text-decoration: none;
-}
-}
+.sharestory{background-color:#fff;padding:15px 30px 0 20px; border-top:1px solid #333; border-bottom:1px solid #333
+}.sharestory a{color:#333;text-decoration:none}
+
 
 .emailSubscribeBox {
 float: right;
